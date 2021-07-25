@@ -3,7 +3,7 @@ import './Cover.css';
 
 const Cover = () => {
     return (
-        <div className="cover">
+        <div className="cover" id="home">
             <div className="home__text">
                 <div>
                     <h1>Hi! I AM</h1>

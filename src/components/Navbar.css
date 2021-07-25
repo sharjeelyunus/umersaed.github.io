@@ -1,10 +1,16 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 10px 50px 10px 50px;
+  padding: 20px 50px 20px 50px;
   font-size: 20px;
   background-color: var(--primary-color);
   color: lightgray;
+  position: fixed;
+  top: 0;
+  width: 94%;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
 }
 
 .navbar__logo {
@@ -19,4 +25,9 @@
   display: inline;
   padding: 10px;
   cursor: pointer;
+}
+
+.navbar__list > ul > li > a {
+  color: lightgray;
+  text-decoration: none;
 }
