@@ -1,10 +1,15 @@
-.experience {
+.experience__section {
   color: lightgray;
   padding: 20px 150px 100px 150px;
   background-color: rgb(34, 34, 34);
 }
 
-.experience > h1 {
+.experience {
+  display: flex;
+  justify-content: center;
+}
+
+.experience__section > h1 {
   margin-bottom: 20px;
 }
 
